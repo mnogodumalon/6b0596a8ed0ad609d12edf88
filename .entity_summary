@@ -1,0 +1,7 @@
+- Standorte (standorte): bezeichnung[string/text], strasse[string/text], hausnummer[string/text], plz[string/text], ort[string/text], position[geo], trachtart[multiplelookup/checkbox], eigentuemer_vorname[string/text], eigentuemer_nachname[string/text], eigentuemer_telefon[string/tel], bemerkung[string/textarea]
+- Bienenvölker (bienenvoelker): volksnummer[string/text], volksname[string/text], standort[applookup/select], rasse[lookup/select], beutentyp[lookup/select], status[lookup/radio], aufstellungsdatum[date/date], koenigin_baujahr[number], koenigin_markierung[lookup/select], koenigin_herkunft[string/text], bemerkung[string/textarea]
+  → standort links to app_id 6b059693de76fd8f858198ae
+- Stockarbeiten (stockarbeiten): volk[applookup/select], art[lookup/select], zeitpunkt[date/datetimeminute], volksstaerke[lookup/radio], sanftmut[lookup/radio], brutbild[lookup/select], koenigin_gesehen[bool], stifte_gesehen[bool], weiselzellen[bool], varroabefall[number], mittel[string/text], dosierung[string/text], futtermenge[number], bemerkung[string/textarea]
+  → volk links to app_id 6b0596986162709a126f2311
+- Honigernten (honigernten): volk[applookup/select], erntedatum[date/date], honigsorte[lookup/select], menge_kg[number], wassergehalt[number], anzahl_glaeser[number], bemerkung[string/textarea]
+  → volk links to app_id 6b0596986162709a126f2311

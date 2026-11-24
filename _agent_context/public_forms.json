@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "standorte",
+      "app_id": "6b059693de76fd8f858198ae",
+      "path": "/rest/apps/6b059693de76fd8f858198ae/records",
+      "allowed_fields": [
+        "bezeichnung",
+        "strasse",
+        "hausnummer",
+        "plz",
+        "ort",
+        "position",
+        "trachtart",
+        "eigentuemer_vorname",
+        "eigentuemer_nachname",
+        "eigentuemer_telefon",
+        "bemerkung"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Standorte — Formular"
+    },
+    {
+      "entity": "bienenvoelker",
+      "app_id": "6b0596986162709a126f2311",
+      "path": "/rest/apps/6b0596986162709a126f2311/records",
+      "allowed_fields": [
+        "volksnummer",
+        "volksname",
+        "rasse",
+        "beutentyp",
+        "status",
+        "aufstellungsdatum",
+        "koenigin_baujahr",
+        "koenigin_markierung",
+        "koenigin_herkunft",
+        "bemerkung"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Bienenvölker — Formular"
+    },
+    {
+      "entity": "stockarbeiten",
+      "app_id": "6b059699c1cf09ae747a18d0",
+      "path": "/rest/apps/6b059699c1cf09ae747a18d0/records",
+      "allowed_fields": [
+        "art",
+        "zeitpunkt",
+        "volksstaerke",
+        "sanftmut",
+        "brutbild",
+        "koenigin_gesehen",
+        "stifte_gesehen",
+        "weiselzellen",
+        "varroabefall",
+        "mittel",
+        "dosierung",
+        "futtermenge",
+        "bemerkung"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Stockarbeiten — Formular"
+    },
+    {
+      "entity": "honigernten",
+      "app_id": "6b059699682988dcf7c091c5",
+      "path": "/rest/apps/6b059699682988dcf7c091c5/records",
+      "allowed_fields": [
+        "erntedatum",
+        "honigsorte",
+        "menge_kg",
+        "wassergehalt",
+        "anzahl_glaeser",
+        "bemerkung"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Honigernten — Formular"
+    }
+  ]
+}
